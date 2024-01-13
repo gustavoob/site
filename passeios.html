@@ -1,180 +1,492 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brasil Tour | Passeios.</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<head>
-  <meta charset="UTF-8">
-  <title>Blue Heaven | Passeios.</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
-  <meta name="description" content="Agende salto de paraquedas, voo de asa-delta e passeio de balão." />
-  <meta property="og:title" content="Blue Heaven | Passeios." />
-  <meta property="og:description" content="Agende salto de paraquedas, voo de asa-delta e passeio de balão." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="" />
-  <meta property="og:image" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
+  </head>
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <body>
+    <header class="header">
+      <nav class="container header-container">
+        <a href="./"><img src="./img/brasil-tour.svg" alt="Brasil Tour" /></a>
+        <button data-menu="hamburguer" aria-controls="menu">Menu</button>
+        <ul data-menu="lista" id="menu">
+          <li><a href="./">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a class="ativo" href="passeios.html">Passeios</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main passeios">
+      <div class="container">
+        <h1>Passeios</h1>
+        <p>Explore o mundo ao seu redor.</p>
+      </div>
+    </section>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <script>
-    document.documentElement.classList.add("js");
-  </script>
+    <section class="container">
+      <h1 class="titulo">Aéreos</h1>
+      <div class="passeios-container" data-animate="scroll">
+        <img src="./img/asa.png" alt="Asa-delta" />
+        <div class="info">
+          <h2>Asa-delta</h2>
+          <p>
+            Asa-delta é um tipo de planador composta por tubos de alumínio, que
+            proporcionam a sua rigidez estrutural, e uma vela feita de tecidos.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 16 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 110kg (por questões de segurança não recomendamos
+              peso superior.)
+            </li>
+            <li>
+              Limite por pessoa: 2 (acompanhado de instrutor ou pessoa
+              experiente.)
+            </li>
+            <li>
+              Documentos necessários: RG ou passaporte, laudo médico, ficha de
+              inscrição, carteira e comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
+    <section class="asa-delta">
+      <div class="container passeios-container" data-animate="scroll">
+        <img src="./img/balao2.png" alt="Balonismo" />
+        <div class="info">
+          <h2>Balonismo</h2>
+          <p>
+            O balonismo é um desporto aeronáutico praticado com um balão de ar
+            quente. No Brasil, o esporte começou a popularizar-se a partir dos
+            anos 90.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 7 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 86kg (peso individual caso atinja o limite máximo de
+              pessoas.)
+            </li>
+            <li>Limite por pessoa: 13 (incluindo o piloto do balão.)</li>
+            <li>
+              Documentos necessários: RG ou passaporte, laudo médico, ficha de
+              inscrição, carteira e comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
+    <section class="container" data-animate="scroll">
+      <div class="passeios-container">
+        <img src="./img/paraquedas-passeios 1.jpg" alt="Paraquedas" />
+        <div class="info">
+          <h2>Paraquedas</h2>
+          <p>
+            O paraquedismo é praticado por desportistas que saltam de aeronaves,
+            ou lugares fixos (BASE jumping), fazendo uso de um paraquedas
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 16 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 120kg (por questões de segurança não recomendamos
+              peso superior.)
+            </li>
+            <li>
+              Limite por pessoa: 2 (salto duplo somente com acompanhamento do
+              instrutor.)
+            </li>
+            <li>
+              Documentos necessários: RG ou passaporte, laudo médico, ficha de
+              inscrição, carteira e comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
+    <section class="asa-delta">
+      <div class="container passeios-container" data-animate="scroll">
+        <img src="./img/helicoptero.png" alt="Balonismo" />
+        <div class="info">
+          <h2>Helicóptero</h2>
+          <p>
+            Eleve sua experiência a novas alturas! Em nosso passeio de
+            helicóptero, você descobrirá uma perspectiva única, voando sobre
+            paisagens deslumbrantes e criando memórias que ficarão gravadas para
+            sempre nos céus da sua jornada.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 2 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 95kg (peso individual caso atinja o limite máximo de
+              pessoas.)
+            </li>
+            <li>Limite por pessoa: 5 (incluindo o piloto do balão.)</li>
+            <li>
+              Documentos necessários: RG ou passaporte, laudo médico, ficha de
+              inscrição, carteira e comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
 
+    <section class="container" id="terrestre">
+      <h1 class="titulo">Aquáticos</h1>
+      <div class="passeios-container" data-animate="scroll">
+        <img src="./img/bike.png" alt="Asa-delta" />
+        <div class="info">
+          <h2>Bike aquática</h2>
+          <p>
+            O ciclismo aquático é uma atividade esportiva que adapta ciclismo,
+            com os mesmos movimentos de rotação, sendo dentro da água.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 7 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 110kg (por questões de segurança não recomendamos
+              peso superior.)
+            </li>
+            <li>Limite por pessoa: 1</li>
+            <li>
+              Documentos necessários: RG ou passaporte, ficha de inscrição e
+              comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
 
-
-</head>
-
-<body>
-  <header class="header">
-    <nav class="container header-container">
-      <a href="./"><img src="./img/brasil-tour.svg" alt="Blue Heaven"></a>
-      <button data-menu="hamburguer" aria-controls="menu">Menu</button>
-      <ul data-menu="lista" id="menu">
-        <li><a href="./">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a class="ativo" href="passeios.html">Passeios</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="main passeios">
-    <div class="container">
-      <h1>Passeios</h1>
-      <p>A aventura está lá fora.</p>
-    </div>
-  </section>
-
-  <section class="container" data-animate="scroll">
-    <h1 class="titulo">Conheça nossas atrações</h1>
-    <div class="passeios-container">
-      <img src="./img/paraquedas-passeios 1.jpg" alt="Paraquedas">
+    <section class="asa-delta" id="terrestre">
+      <div class="container passeios-container" data-animate="scroll">
+        <img src="./img/merg2.jpg" alt="Paraquedas" />
+        <div class="info">
+          <h2>Mergulho com cilindro</h2>
+          <p>
+            O mecanismo que permite respirar embaixo d´agua o ar comprimido é o
+            regulador de pressão que é acoplado ao cilindro de ar comprimido,
+            reduz sua pressão até a pressão ambiente e conduz o gás por
+            mangueiras até a boca do mergulhador, abrindo e fechando para
+            liberar o ar a cada respirada.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 12 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 120kg (por questões de segurança não recomendamos
+              peso superior.)
+            </li>
+            <li>
+              Observação: sujeito à avaliação favorável das condições
+              meteorológicas e marítimas, visando assegurar a segurança durante
+              o mergulho.
+            </li>
+            <li>
+              Documentos necessários: RG ou passaporte, ficha de inscrição e
+              comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
+    <section class="container" data-animate="scroll">
+      <div class="passeios-container">
+        <img src="./img/barco.png" alt="Asa-delta" />
+        <div class="info">
+          <h2>Barco</h2>
+          <p>
+            Navegar em um passeio de barco é embarcar em uma jornada serena,
+            onde as águas revelam paisagens encantadoras e cada onda conta uma
+            história única.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 7 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 110kg (por questões de segurança não recomendamos
+              peso superior.)
+            </li>
+            <li>Limite por pessoa: 1</li>
+            <li>
+              Documentos necessários: RG ou passaporte, ficha de inscrição e
+              comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
+    <section class="asa-delta" id="terrestre">
+      <div class="container passeios-container" data-animate="scroll">
+        <img src="./img/banana.png" alt="Paraquedas" />
+        <div class="info">
+          <h2>Banana Boat</h2>
+          <p>
+            Um banana boat é um barco inflável recreacional feito geralmente
+            para ser rebocado. Foi inventado por Glenn Matthews no fim dos anos
+            80.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 10 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 120kg (por questões de segurança não recomendamos
+              peso superior.)
+            </li>
+            <li>Limite de pessoas: 10</li>
+            <li>
+              Documentos necessários: RG ou passaporte, ficha de inscrição e
+              comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
+    <section class="container" data-animate="scroll">
+      <h1 class="titulo">Terrestres</h1>
+      <div class="passeios-container">
+        <img src="./img/bici.png" alt="Asa-delta" />
+        <div class="info">
+          <h2>Bicicleta</h2>
+          <p>
+            O ciclismo é a prática de se usar uma bicicleta, seja como na
+            modalidade ou na forma de locomoção.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 18 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 110kg (por questões de segurança não recomendamos
+              peso superior.)
+            </li>
+            <li>
+              Limite por pessoa: 2 (acompanhado de instrutor ou pessoa
+              experiente.)
+            </li>
+            <li>
+              Documentos necessários: RG ou passaporte, ficha de inscrição,
+              carteira de motorista e comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
+    <section class="asa-delta" id="terrestre">
+      <div class="container passeios-container" data-animate="scroll">
+        <img src="./img/q1.jpg" alt="Asa-delta" />
+        <div class="info">
+          <h2>Quadriciclo</h2>
+          <p>
+            Considerado um brinquedo por muitos adultos, o quadriciclo ganhou
+            novos espaços nas garagens brasileiras. Essa espécie de moto sobre
+            quatro rodas passou a ser utilizada não só para o esporte, mas
+            também como opção de lazer em áreas montanhosas e arenosas.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 18 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 110kg (por questões de segurança não recomendamos
+              peso superior.)
+            </li>
+            <li>
+              Limite por pessoa: 2 (acompanhado de instrutor ou pessoa
+              experiente.)
+            </li>
+            <li>
+              Documentos necessários: RG ou passaporte, ficha de inscrição,
+              carteira de motorista e comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
+      </div>
+    </section>
+    <section class="container passeios-container" data-animate="scroll">
+      <img src="./img/tre.png" alt="Balonismo" />
       <div class="info">
-        <h2>Paraquedas</h2>
-        <p>O paraquedismo é praticado por desportistas que saltam de aeronaves, ou lugares fixos (BASE jumping), fazendo uso de um paraquedas</p>
+        <h2>Trilhas</h2>
+        <p>
+          Trilha é o caminho que se desenha na natureza, um convite para
+          descobertas, aventuras e conexão com o ambiente ao redor.
+        </p>
         <ul>
           <li>Ficha técnica</li>
-          <li>Idade mínima: 16 anos (menores de idade devem ir acompanhados dos pais.)</li>
-          <li>Peso máximo: 120kg (por questões de segurança não recomendamos peso superior.)</li>
-          <li>Limite por pessoa: 2 (salto duplo somente com acompanhamento do instrutor.)</li>
-          <li>Documentos necessários: RG ou passaporte, laudo médico, ficha de inscrição, carteira e comprovante.</li>
-
+          <li>
+            Idade mínima: 7 anos (menores de idade devem ir acompanhados dos
+            pais.)
+          </li>
+          <li>
+            Recomendação: levar água e lanche, para ser consumido durante o
+            percurso.
+          </li>
+          <li>
+            Observação: sujeito à avaliação favorável das condições
+            meteorológicas e marítimas, visando assegurar a segurança durante o
+            mergulho.
+          </li>
+          <li>
+            Documentos necessários: RG ou passaporte, ficha de inscrição e
+            comprovante.
+          </li>
         </ul>
         <a href="" class="cta">Agendar Passeios</a>
       </div>
-    </div>
-  </section>
-  <section class="asa-delta">
-    <div class="container passeios-container" data-animate="scroll">
-      <img src="./img/asa-delta-passeios.jpg" alt="Asa-delta">
-      <div class="info">
-        <h2>Asa-delta</h2>
-        <p>Asa-delta é um tipo de planador composta por tubos de alumínio, que proporcionam a sua rigidez estrutural, e uma vela feita de tecidos.</p>
-        <ul>
-          <li>Ficha técnica</li>
-          <li>Idade mínima: 16 anos (menores de idade devem ir acompanhados dos pais.)</li>
-          <li>Peso máximo: 110kg (por questões de segurança não recomendamos peso superior.)</li>
-          <li>Limite por pessoa: 2 (acompanhado de instrutor ou pessoa experiente.)</li>
-          <li>Documentos necessários: RG ou passaporte, laudo médico, ficha de inscrição, carteira e comprovante.</li>
-        </ul>
-        <a href="" class="cta">Agendar Passeios</a>
+    </section>
+    <section class="asa-delta" id="terrestre">
+      <div class="container passeios-container" data-animate="scroll">
+        <img src="./img/caminhao.png" alt="Asa-delta" />
+        <div class="info">
+          <h2>Caminhão do exército</h2>
+          <p>
+            Embarque neste veículo robusto que já serviu nas fileiras militares,
+            e mergulhe em uma jornada que combina história, adrenalina e
+            paisagens deslumbrantes.
+          </p>
+          <ul>
+            <li>Ficha técnica</li>
+            <li>
+              Idade mínima: 5 anos (menores de idade devem ir acompanhados dos
+              pais.)
+            </li>
+            <li>
+              Peso máximo: 110kg (por questões de segurança não recomendamos
+              peso superior.)
+            </li>
+            <li>Limite máximo: 20</li>
+            <li>
+              Documentos necessários: RG ou passaporte, ficha de inscrição e
+              comprovante.
+            </li>
+          </ul>
+          <a href="" class="cta">Agendar Passeios</a>
+        </div>
       </div>
-    </div>
-  </section>
-  <section class="container passeios-container" data-animate="scroll">
-
-    <img src="./img/balonismo-passeios.jpg" alt="Balonismo">
-    <div class="info">
-      <h2>Balonismo</h2>
-      <p>O balonismo é um desporto aeronáutico praticado com um balão de ar quente. No Brasil, o esporte começou a popularizar-se a partir dos anos 90.</p>
-      <ul>
-        <li>Ficha técnica</li>
-        <li>Idade mínima: 7 anos (menores de idade devem ir acompanhados dos pais.)</li>
-        <li>Peso máximo: 86kg (peso individual caso atinja o limite máximo de pessoas.)</li>
-        <li>Limite por pessoa: 13 (incluindo o piloto do balão.)</li>
-        <li>Documentos necessários: RG ou passaporte, laudo médico, ficha de inscrição, carteira e comprovante.</li>
-      </ul>
-      <a href="" class="cta">Agendar Passeios</a>
-    </div>
-
-  </section>
-  <section class="galeria">
-    <div class="container" data-animate="scroll">
+    </section>
+    <section class="galeria-home container" data-animate="scroll">
       <h1 class="titulo">Galeria de fotos</h1>
       <ul class="galeria-lista">
-        <li> <img src="img/paraquedas.jpg" alt="Paraquedas"></li>
-        <li> <img src="img/balonismo.jpg" alt="Balonismo"></li>
-        <li> <img src="img/salto-duplo.jpg" alt="Salto duplo"></li>
-        <li> <img src="img/asa-delta.jpg" alt="Asa-delta"></li>
-
+        <li><img src="img/quadritour.jpg" alt="Paraquedas" /></li>
+        <li><img src="img/balonismo.jpg" alt="Balonismo" /></li>
+        <li><img src="img/salto-duplo.jpg" alt="Salto duplo" /></li>
+        <li><img src="img/mergulho-cilindro.jpg" alt="Asa-delta" /></li>
       </ul>
-      <a href="https://www.instagram.com" target="_blank" class="cta">Ver no Instagram</a>
-    </div>
-
-  </section>
-  <footer class="footer">
-    <div class="container">
-      <ul class="footer-container">
-        <li>
-          <h2>Localização</h2>
-          <p> Rua Céu Azul , 120 <br>
-            Bairro das Nuvens - São Paulo - SP <br>
-            CEP 123456-789</p> <br>
-          <a href="https://www.google.com" target="_blank">Clique aqui para abrir o mapa.</a>
-        </li>
-        <li>
-          <h2>Mapa do site</h2>
-          <ul class="mapa-do-site">
-            <li><a href="./">- Home</a></li>
-            <li><a href="sobre.html">- Sobre</a></li>
-            <li><a href="passeios.html">- Passeios</a></li>
-            <li><a href="contato.html">- Contato</a></li>
-            <li><a href="trabalhe-conosco.html">- Trabalhe conosco</a></li>
-          </ul>
-        </li>
-        <li>
-          <h2>Contato</h2>
-          <ul class="footer-contato">
-            <li><a href="tel:+5551999999999">+55 (51) 99999-9999</a></li>
-            <li><a href="mailto:contato@blueheaven.com.br">contato@blueheaven.com.br</a> </li>
-          </ul>
-        </li>
-        <li>
-          <h2>Redes sociais</h2>
-          <ul class="redes-sociais">
-            <li>
-              <a href="https://www.facebook.com" target="_blank">
-                <img src="img/facebook.svg" alt="facebook Blue Heaven">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com" target="_blank">
-                <img src="img/instagram.svg" alt="Instagram Blue Heaven">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.whatsapp.com" target="_blank">
-                <img src="img/whatsapp.svg" alt="Whatsapp Blue Heaven">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com" target="_blank">
-                <img src="img/youtube.svg" alt="Youtube Blue Heaven">
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <div class="copyright">
-      <p>Copyright © 2023 Blue Heaven Todos os direitos reservados.
-      </p>
-      <p> Este site é um projeto Tiger Codes. Mais informações em tigercodes.com.br</p>
-    </div>
-  </footer>
-  <script src="./js/script.js" type="module"></script>
-</body>
-
+      <a href="passeios.html" class="cta">Ver mais</a>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer-container">
+          <li>
+            <h2>Localização</h2>
+            <p>
+              Rua Amazônia , 2024 <br />
+              Bairro das Araras - Porto Alegre - RS <br />
+              CEP 123456-789
+            </p>
+            <br />
+            <a href="https://www.google.com" target="_blank"
+              >Clique aqui para abrir o mapa.</a
+            >
+          </li>
+          <li>
+            <h2>Contato</h2>
+            <ul class="footer-contato">
+              <li><a href="tel:+5551999999999">+55 (51) 99999-9999</a></li>
+              <li>
+                <a href="mailto:contato@brasiltour.com.br"
+                  >contato@brasiltour.com.br</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2>Redes sociais</h2>
+            <ul class="redes-sociais">
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="img/facebook.svg" alt="facebook Brasil Tour" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img src="img/instagram.svg" alt="Instagram Brasil Tour" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.whatsapp.com" target="_blank">
+                  <img src="img/whatsapp.svg" alt="Whatsapp Brasil Tour" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com" target="_blank">
+                  <img src="img/youtube.svg" alt="Youtube Brasil Tour" />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2024 Brasil Tour Todos os direitos reservados.</p>
+      </div>
+    </footer>
+    <script src="./js/script.js" type="module"></script>
+  </body>
 </html>

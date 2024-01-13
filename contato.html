@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -22,6 +24,52 @@
     document.documentElement.classList.add("js");
   </script>
 
+<style>
+        .faq-container {
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .question {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        details {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+
+        details[open] {
+            background-color: #f9f9f9;
+        }
+
+        summary {
+            cursor: pointer;
+            font-size: 16px;
+            color: #007BFF;
+            outline: none;
+        }
+
+        .answer {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
 </head>
 
 <body>
@@ -47,7 +95,7 @@
     <h1 class="titulo">Agende pelo Whatsapp</h1>
     <div class="wpp-box">
       <img src="./img/whatsapp-logo 1.svg" alt="Whatsapp">
-      <p>Você sabia? Nós também agendamos passeios e realizamos atendimento direto pelo Whastapp. É simples, é rápido, é fácil. </p>
+      <p>Sabia que facilitamos tudo para você? Agende seus passeios e receba atendimento direto pelo WhatsApp. É prático, rápido e descomplicado. Estamos à disposição para tornar sua experiência ainda mais fácil. </p>
     </div>
     <a href="" class="cta">Enviar whatsapp</a>
   </section>
@@ -101,71 +149,111 @@
       </div>
     </div>
   </section>
+  <div class="faq-container">
+    <h1>Perguntas Frequentes</h1>
+
+    <div class="faq-item">
+        <div class="question">1. Como posso agendar um passeio?</div>
+        <details>
+            <summary>Resposta</summary>
+            <div class="answer">Você pode agendar um passeio facilmente através do nosso site ou entrando em
+                contato diretamente pelo WhatsApp.</div>
+        </details>
+    </div>
+
+    <div class="faq-item">
+        <div class="question">2. Qual é a política de cancelamento?</div>
+        <details>
+            <summary>Resposta</summary>
+            <div class="answer">Oferecemos políticas flexíveis de cancelamento. Consulte nossa página de termos e
+                condições para obter mais detalhes.</div>
+        </details>
+    </div>
+
+    <div class="faq-item">
+        <div class="question">3. Quais são os documentos necessários para participar dos passeios?</div>
+        <details>
+            <summary>Resposta</summary>
+            <div class="answer">Os documentos necessários incluem RG ou passaporte, laudo médico, ficha de
+                inscrição, carteira e comprovante de residência. Certifique-se de verificar os requisitos específicos
+                para cada passeio.</div>
+        </details>
+    </div>
+
+    <div class="faq-item">
+        <div class="question">4. Como posso obter informações sobre as condições meteorológicas para o passeio?</div>
+        <details>
+            <summary>Resposta</summary>
+            <div class="answer">Fornecemos atualizações regulares sobre as condições meteorológicas em nosso site.
+                Além disso, nossa equipe entrará em contato se houver alguma alteração no itinerário devido às
+                condições adversas.</div>
+        </details>
+    </div>
+</div>
+
   <section class="container mapa" data-animate="scroll">
     <h1 class="titulo">Vizualizar no mapa</h1>
     <p>Clique no mapa para abrir o aplicativo Google Maps.</p>
     <a href="https://www.google.com/maps/place/Beco+das+Cores/@-16.492427,-39.0744082,17z/data=!4m15!1m8!3m7!1s0x73690d28f1a7da7:0x2dd6f83d0e2a3f8!2sArraial+d'Ajuda,+Porto+Seguro+-+BA,+45810-000!3b1!8m2!3d-16.4910066!4d-39.0740031!16s%2Fm%2F0crj63h!3m5!1s0x736914641745661:0xc0412366cb3b48c8!8m2!3d-16.4919988!4d-39.0720353!16s%2Fg%2F11s5c1hdf7" target="_blank"><img src="./img/mapa 1.jpg" alt="Mapa"></a>
   </section>
+
   <footer class="footer">
-    <div class="container">
-      <ul class="footer-container">
-        <li>
-          <h2>Localização</h2>
-          <p> Rua Céu Azul , 120 <br>
-            Bairro das Nuvens - São Paulo - SP <br>
-            CEP 123456-789</p> <br>
-          <a href="https://www.google.com" target="_blank">Clique aqui para abrir o mapa.</a>
-        </li>
-        <li>
-          <h2>Mapa do site</h2>
-          <ul class="mapa-do-site">
-            <li><a href="./">- Home</a></li>
-            <li><a href="sobre.html">- Sobre</a></li>
-            <li><a href="passeios.html">- Passeios</a></li>
-            <li><a href="contato.html">- Contato</a></li>
-            <li><a href="trabalhe-conosco.html">- Trabalhe conosco</a></li>
-          </ul>
-        </li>
-        <li>
-          <h2>Contato</h2>
-          <ul class="footer-contato">
-            <li><a href="tel:+5551999999999">+55 (51) 99999-9999</a></li>
-            <li><a href="mailto:contato@blueheaven.com.br">contato@blueheaven.com.br</a> </li>
-          </ul>
-        </li>
-        <li>
-          <h2>Redes sociais</h2>
-          <ul class="redes-sociais">
-            <li>
-              <a href="https://www.facebook.com" target="_blank">
-                <img src="img/facebook.svg" alt="facebook Blue Heaven">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com" target="_blank">
-                <img src="img/instagram.svg" alt="Instagram Blue Heaven">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.whatsapp.com" target="_blank">
-                <img src="img/whatsapp.svg" alt="Whatsapp Blue Heaven">
-              </a>
-            </li>
-            <li>
-              <a href="https://www.youtube.com" target="_blank">
-                <img src="img/youtube.svg" alt="Youtube Blue Heaven">
-              </a>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
-    <div class="copyright">
-      <p>Copyright © 2023 Blue Heaven Todos os direitos reservados.
-      </p>
-      <p> Este site é um projeto Tiger Codes. Mais informações em tigercodes.com.br</p>
-    </div>
-  </footer>
+      <div class="container">
+        <ul class="footer-container">
+          <li>
+            <h2>Localização</h2>
+            <p>
+              Rua Amazônia , 2024 <br />
+              Bairro das Araras - Porto Alegre - RS <br />
+              CEP 123456-789
+            </p>
+            <br />
+            <a href="https://www.google.com" target="_blank"
+              >Clique aqui para abrir o mapa.</a
+            >
+          </li>
+          <li>
+            <h2>Contato</h2>
+            <ul class="footer-contato">
+              <li><a href="tel:+5551999999999">+55 (51) 99999-9999</a></li>
+              <li>
+                <a href="mailto:contato@brasiltour.com.br"
+                  >contato@brasiltour.com.br</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h2>Redes sociais</h2>
+            <ul class="redes-sociais">
+              <li>
+                <a href="https://www.facebook.com" target="_blank">
+                  <img src="img/facebook.svg" alt="facebook Brasil Tour" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank">
+                  <img src="img/instagram.svg" alt="Instagram Brasil Tour" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.whatsapp.com" target="_blank">
+                  <img src="img/whatsapp.svg" alt="Whatsapp Brasil Tour" />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com" target="_blank">
+                  <img src="img/youtube.svg" alt="Youtube Brasil Tour" />
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2024 Brasil Tour Todos os direitos reservados.</p>
+      </div>
+    </footer>
   <script src="./js/script.js" type="module"></script>
 </body>
 
