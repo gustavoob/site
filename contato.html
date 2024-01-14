@@ -1,203 +1,204 @@
 <!DOCTYPE html>
-<html lang="en">
-<!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Brasil Tour | Contato.</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+      shrink-to-fit="no"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
 
-<head>
-  <meta charset="UTF-8">
-  <title>Brasil Tour | Contato.</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit="no">
-  <meta name="description" content="Agende salto de paraquedas, voo de asa-delta e passeio de balão." />
-  <meta property="og:title" content="Blue Heaven | Contato." />
-  <meta property="og:description" content="Agende salto de paraquedas, voo de asa-delta e passeio de balão." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="" />
-  <meta property="og:image" content="" />
+    <style></style>
+  </head>
 
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/style.css">
-  <script>
-    document.documentElement.classList.add("js");
-  </script>
+  <body>
+    <header class="header">
+      <nav class="container header-container">
+        <a href="./"><img src="./img/brasil-tour.svg" alt="Blue Heaven" /></a>
+        <button data-menu="hamburguer" aria-controls="menu">Menu</button>
+        <ul data-menu="lista" id="menu">
+          <li><a href="./">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="passeios.html">Passeios</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main contato">
+      <div class="container">
+        <h1>Contato</h1>
+        <p>Agende passeios. Envie sua mensagem!</p>
+      </div>
+    </section>
+    <section class="container wpp" data-animate="scroll">
+      <h1 class="titulo">Agende pelo Whatsapp</h1>
+      <div class="wpp-box">
+        <img src="./img/whatsapp-logo 1.svg" alt="Whatsapp" />
+        <p>
+          Sabia que facilitamos tudo para você? Agende seus passeios e receba
+          atendimento direto pelo WhatsApp. É prático, rápido e descomplicado.
+          Estamos à disposição para tornar sua experiência ainda mais fácil.
+        </p>
+      </div>
+      <a href="" class="cta">Enviar whatsapp</a>
+    </section>
+    <section class="atendimento">
+      <div class="container" data-animate="scroll">
+        <h1 class="titulo">Atendimento Personalizado</h1>
+        <div class="atendimento-container">
+          <form method="POST" action="./send.php" class="form formjs">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" required />
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email" required />
+            <label for="passeios">Passeio</label>
+            <div class="select">
+              <select name="passeio" id="passeio" required>
+                <option value="" disabled selected hidden></option>
+                <option value="paraquedas">Paraquedas</option>
+                <option value="asa-delta">Asa-delta</option>
+                <option value="balonismo">Balonismo</option>
+              </select>
+            </div>
 
-<style>
-        .faq-container {
-            max-width: 800px;
-            margin: auto;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            border-radius: 8px;
-            margin-top: 20px;
-        }
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" required></textarea>
+            <button type="submit" class="cta" name="enviar" id="enviar">
+              Enviar
+            </button>
+          </form>
+          <div class="dados">
+            <h2>Fale com a gente</h2>
+            <ul>
+              <li><a href="tel:5551999999999">+55 (51) 99999-9999</a></li>
+              <li>
+                <a href="tomail:contato@blueheaven.com"
+                  >contato@blueheaven.com</a
+                >
+              </li>
+            </ul>
+            <h2>Siga-nos nas redes sociais</h2>
+            <ul>
+              <li>
+                <a href="https://www.facebook.com" target="_blank"
+                  >facebook.com</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com" target="_blank"
+                  >instagram.com</a
+                >
+              </li>
+              <li>
+                <a href="https://www.youtube.com" target="_blank"
+                  >youtube.com</a
+                >
+              </li>
+            </ul>
+            <h2>Faça uma visita</h2>
+            <p>
+              Rua Céu Azul , 120 <br />
+              Bairro das Nuvens - São Paulo - SP <br />
+              CEP 123456-789
+            </p>
 
-        .faq-item {
-            margin-bottom: 20px;
-        }
+            <h2>Sobre nós</h2>
 
-        .question {
-            font-weight: bold;
-            font-size: 18px;
-            margin-bottom: 10px;
-            color: #333;
-        }
-
-        details {
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 10px;
-            transition: background-color 0.3s;
-        }
-
-        details[open] {
-            background-color: #f9f9f9;
-        }
-
-        summary {
-            cursor: pointer;
-            font-size: 16px;
-            color: #007BFF;
-            outline: none;
-        }
-
-        .answer {
-            margin-top: 10px;
-            font-size: 14px;
-            color: #666;
-        }
-    </style>
-</head>
-
-<body>
-  <header class="header">
-    <nav class="container header-container">
-      <a href="./"><img src="./img/brasil-tour.svg" alt="Blue Heaven"></a>
-      <button data-menu="hamburguer" aria-controls="menu">Menu</button>
-      <ul data-menu="lista" id="menu">
-        <li><a href="./">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="passeios.html">Passeios</a></li>
-        <li><a href="contato.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-  <section class="main contato">
-    <div class="container">
-      <h1>Contato</h1>
-      <p>Agende passeios. Envie sua mensagem!</p>
-    </div>
-  </section>
-  <section class="container wpp" data-animate="scroll">
-    <h1 class="titulo">Agende pelo Whatsapp</h1>
-    <div class="wpp-box">
-      <img src="./img/whatsapp-logo 1.svg" alt="Whatsapp">
-      <p>Sabia que facilitamos tudo para você? Agende seus passeios e receba atendimento direto pelo WhatsApp. É prático, rápido e descomplicado. Estamos à disposição para tornar sua experiência ainda mais fácil. </p>
-    </div>
-    <a href="" class="cta">Enviar whatsapp</a>
-  </section>
-  <section class="atendimento">
-    <div class="container" data-animate="scroll">
-      <h1 class="titulo">Atendimento Personalizado</h1>
-      <div class="atendimento-container">
-        <form method="POST" action="./send.php" class="form formjs">
-          <label for="nome">Nome</label>
-          <input type="text" name="nome" id="nome" required>
-          <label for="email">E-mail</label>
-          <input type="email" name="email" id="email" required>
-          <label for="passeios">Passeio</label>
-          <div class="select">
-            <select name="passeio" id="passeio" required>
-              <option value="" disabled selected hidden></option>
-              <option value="paraquedas">Paraquedas</option>
-              <option value="asa-delta">Asa-delta</option>
-              <option value="balonismo">Balonismo</option>
-            </select>
+            <p>
+              A Blue Heaven surgiu de um dos mais antigos sonhos da humanidade:
+              o poder de voar. Ainda que não tivéssemos asas, nós queríamos usar
+              a nossa imaginação e criatividade para juntos poder construir
+              equipamentos seguros que possibitassem tornar o sonho de se
+              aventurar pelo céu, uma realidade. E foi isso o que fizemos.
+            </p>
           </div>
-
-          <label for="mensagem">Mensagem</label>
-          <textarea name="mensagem" id="mensagem" required></textarea>
-          <button type="submit" class="cta" name="enviar" id="enviar">Enviar</button>
-        </form>
-        <div class="dados">
-          <h2>Fale com a gente</h2>
-          <ul>
-            <li><a href="tel:5551999999999">+55 (51) 99999-9999</a> </li>
-            <li><a href="tomail:contato@blueheaven.com">contato@blueheaven.com</a></li>
-          </ul>
-          <h2>Siga-nos nas redes sociais</h2>
-          <ul>
-            <li><a href="https://www.facebook.com" target="_blank">facebook.com</a></li>
-            <li><a href="https://www.instagram.com" target="_blank">instagram.com</a></li>
-            <li><a href="https://www.youtube.com" target="_blank">youtube.com</a></li>
-
-          </ul>
-          <h2>Faça uma visita</h2>
-          <p> Rua Céu Azul , 120 <br>
-            Bairro das Nuvens - São Paulo - SP <br>
-            CEP 123456-789</p>
-
-
-          <h2>Sobre nós</h2>
-
-          <p>A Blue Heaven surgiu de um dos mais antigos sonhos da humanidade: o poder de voar. Ainda que não tivéssemos asas, nós queríamos usar a nossa imaginação e criatividade para juntos poder construir equipamentos seguros que possibitassem tornar o sonho de se aventurar pelo céu, uma realidade. E foi isso o que fizemos.</p>
-
         </div>
       </div>
-    </div>
-  </section>
-  <div class="faq-container">
-    <h1>Perguntas Frequentes</h1>
-
-    <div class="faq-item">
-        <div class="question">1. Como posso agendar um passeio?</div>
-        <details>
+    </section>
+    <section class="container">
+      <h1 class="titulo">FAQ</h1>
+      <div class="box">
+        <div class="feature-item">
+          <h2 class="feature-title">1. Como posso agendar um passeio?</h2>
+          <details>
             <summary>Resposta</summary>
-            <div class="answer">Você pode agendar um passeio facilmente através do nosso site ou entrando em
-                contato diretamente pelo WhatsApp.</div>
-        </details>
-    </div>
+            <p class="feature-description">
+              Você pode agendar um passeio facilmente através do nosso site ou
+              entrando em contato diretamente pelo WhatsApp.
+            </p>
+          </details>
+        </div>
 
-    <div class="faq-item">
-        <div class="question">2. Qual é a política de cancelamento?</div>
-        <details>
+        <div class="feature-item">
+          <h2 class="feature-title">2. Qual é a política de cancelamento?</h2>
+          <details>
             <summary>Resposta</summary>
-            <div class="answer">Oferecemos políticas flexíveis de cancelamento. Consulte nossa página de termos e
-                condições para obter mais detalhes.</div>
-        </details>
-    </div>
+            <p class="feature-description">
+              Oferecemos políticas flexíveis de cancelamento. Consulte nossa
+              página de termos e condições para obter mais detalhes.
+            </p>
+          </details>
+        </div>
 
-    <div class="faq-item">
-        <div class="question">3. Quais são os documentos necessários para participar dos passeios?</div>
-        <details>
+        <div class="feature-item">
+          <h2 class="feature-title">
+            3. Quais são os documentos necessários para participar dos passeios?
+          </h2>
+          <details>
             <summary>Resposta</summary>
-            <div class="answer">Os documentos necessários incluem RG ou passaporte, laudo médico, ficha de
-                inscrição, carteira e comprovante de residência. Certifique-se de verificar os requisitos específicos
-                para cada passeio.</div>
-        </details>
-    </div>
+            <div class="feature-description">
+              Os documentos necessários incluem RG ou passaporte, laudo médico,
+              ficha de inscrição, carteira e comprovante de residência.
+              Certifique-se de verificar os requisitos específicos para cada
+              passeio.
+            </div>
+          </details>
+        </div>
 
-    <div class="faq-item">
-        <div class="question">4. Como posso obter informações sobre as condições meteorológicas para o passeio?</div>
-        <details>
+        <div class="feature-item">
+          <h2 class="feature-title">
+            4. Como posso obter informações sobre as condições meteorológicas
+            para o passeio?
+          </h2>
+          <details>
             <summary>Resposta</summary>
-            <div class="answer">Fornecemos atualizações regulares sobre as condições meteorológicas em nosso site.
-                Além disso, nossa equipe entrará em contato se houver alguma alteração no itinerário devido às
-                condições adversas.</div>
-        </details>
-    </div>
-</div>
+            <div class="feature-description">
+              Fornecemos atualizações regulares sobre as condições
+              meteorológicas em nosso site. Além disso, nossa equipe entrará em
+              contato se houver alguma alteração no itinerário devido às
+              condições adversas.
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
 
-  <section class="container mapa" data-animate="scroll">
-    <h1 class="titulo">Vizualizar no mapa</h1>
-    <p>Clique no mapa para abrir o aplicativo Google Maps.</p>
-    <a href="https://www.google.com/maps/place/Beco+das+Cores/@-16.492427,-39.0744082,17z/data=!4m15!1m8!3m7!1s0x73690d28f1a7da7:0x2dd6f83d0e2a3f8!2sArraial+d'Ajuda,+Porto+Seguro+-+BA,+45810-000!3b1!8m2!3d-16.4910066!4d-39.0740031!16s%2Fm%2F0crj63h!3m5!1s0x736914641745661:0xc0412366cb3b48c8!8m2!3d-16.4919988!4d-39.0720353!16s%2Fg%2F11s5c1hdf7" target="_blank"><img src="./img/mapa 1.jpg" alt="Mapa"></a>
-  </section>
+    <section class="mapa">
+      <div class="container" data-animate="scroll">
+        <h1 class="titulo">Vizualizar no mapa</h1>
+        <p>Clique no mapa para abrir o aplicativo Google Maps.</p>
+        <a
+          href="https://www.google.com/maps/place/Beco+das+Cores/@-16.492427,-39.0744082,17z/data=!4m15!1m8!3m7!1s0x73690d28f1a7da7:0x2dd6f83d0e2a3f8!2sArraial+d'Ajuda,+Porto+Seguro+-+BA,+45810-000!3b1!8m2!3d-16.4910066!4d-39.0740031!16s%2Fm%2F0crj63h!3m5!1s0x736914641745661:0xc0412366cb3b48c8!8m2!3d-16.4919988!4d-39.0720353!16s%2Fg%2F11s5c1hdf7"
+          target="_blank"
+          ><img src="./img/mapa 1.jpg" alt="Mapa"
+        /></a>
+      </div>
+    </section>
 
-  <footer class="footer">
+    <footer class="footer">
       <div class="container">
         <ul class="footer-container">
           <li>
@@ -254,7 +255,6 @@
         <p>Copyright © 2024 Brasil Tour Todos os direitos reservados.</p>
       </div>
     </footer>
-  <script src="./js/script.js" type="module"></script>
-</body>
-
+    <script src="./js/script.js" type="module"></script>
+  </body>
 </html>

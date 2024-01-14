@@ -542,6 +542,7 @@ p {
   font-weight: bold;
   font-size: 18px;
   color: var(--green-2);
+  margin-bottom: 10px;
 }
 
 .feature-description {
@@ -549,6 +550,21 @@ p {
   font-size: 14px;
   color: var(--black-1);
 }
+
+details {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+summary {
+  cursor: pointer;
+  font-size: 16px;
+  color: var(--blue-1);
+  outline: none;
+}
+
 .dados li + li {
   margin-top: 1rem;
 }
@@ -631,7 +647,7 @@ p {
   border-radius: 5px;
   text-align: left;
 }
-.atendimento {
+.atendimento,.mapa {
   width: 100%;
   background-color: var(--white-2);
 }
