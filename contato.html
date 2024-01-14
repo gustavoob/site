@@ -54,13 +54,20 @@
           Estamos à disposição para tornar sua experiência ainda mais fácil.
         </p>
       </div>
-      <a href="" class="cta">Enviar whatsapp</a>
+      <a href="https://web.whatsapp.com" class="cta">Enviar whatsapp</a>
     </section>
+
+    
     <section class="atendimento">
       <div class="container" data-animate="scroll">
         <h1 class="titulo">Atendimento Personalizado</h1>
+  
         <div class="atendimento-container">
-          <form method="POST" action="./send.php" class="form formjs">
+          <form id='form' class="form formjs">
+            <div id="successMessage" style="display: none;" class="success-box">
+              <span class="close" id="closeSuccessMessage">&times;</span>
+              <p>Mensagem enviada com sucesso!</p>
+            </div>
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" required />
             <label for="email">E-mail</label>

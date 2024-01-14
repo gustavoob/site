@@ -474,6 +474,31 @@ p {
 #form-error {
   color: tomato;
 }
+.success-box {
+  background-color: hsla(122, 100%, 50%, 0.149);
+  padding: 1rem;
+  text-align: center;
+  color: #328b4a;
+  margin-bottom: 1rem;
+  border: 1px solid #9fdbaf;
+  border-radius: 5px;
+}
+
+.close {
+  color: #333232;
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 #form-success {
   color: var(--orange-2);
 }
