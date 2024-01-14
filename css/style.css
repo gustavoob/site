@@ -139,7 +139,8 @@ body {
 .header li a,
 .passeios-home-lista a,
 h1,
-h2 {
+h2,
+summary {
   font-family: Poppins, sans-serif;
 }
 a {
@@ -165,12 +166,12 @@ table {
   border-spacing: 0;
 }
 html {
-  --blue-1: #549e59;
-  --blue-2: #60cc2d;
-  --blue-3: #164e0f;
-  --green-1: #dfa977;
-  --green-2: #db7515;
-  --green-3: #e7a261;
+  --green-1: #549e59;
+  --green-2: #60cc2d;
+  --green-3: #164e0f;
+  --orange-1: #dfa977;
+  --orange-2: #db7515;
+  --orange-3: #e7a261;
   --white-1: #fafbfc;
   --white-2: #edeeef;
   --white-3: #dcddde;
@@ -206,7 +207,7 @@ p {
 .cta {
   font-size: 1.125rem;
   padding: 1rem 4rem;
-  background-color: var(--green-2);
+  background-color: var(--orange-2);
   border-radius: 5px;
   color: #fff;
   margin-top: 2rem;
@@ -214,11 +215,11 @@ p {
   transition: 0.3s;
 }
 .cta:hover {
-  background: var(--green-3);
+  background: var(--orange-3);
 }
 .titulo {
   font-size: 1.5rem;
-  color: var(--blue-1);
+  color: var(--green-1);
   margin-bottom: 2rem;
 }
 .header {
@@ -226,7 +227,7 @@ p {
   top: 0;
   width: 100%;
   padding: 1.25rem 0;
-  background: linear-gradient(135deg, var(--blue-1), var(--blue-3));
+  background: linear-gradient(135deg, var(--green-1), var(--green-3));
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.16);
   z-index: 10;
 }
@@ -264,7 +265,8 @@ p {
   margin-top: 68px;
   width: 100%;
   height: 500px;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/bg-home.jpg") center center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../img/bg-home.jpg") center center/cover no-repeat;
 }
 .main h1 {
   font-size: 2.25rem;
@@ -297,14 +299,17 @@ p {
   text-transform: uppercase;
   height: 200px;
   border-radius: 5px 5px 0 0;
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/trilha2.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/trilha.jpg) center center no-repeat;
   justify-content: center;
 }
 .passeios-home-lista li:nth-child(2) h2 {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/mergulho.jpg) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/mergulho.jpg) center center no-repeat;
 }
 .passeios-home-lista li:nth-child(3) h2 {
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/paraquedas.png) center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/paraquedas.png) center center no-repeat;
 }
 .passeios-home-lista p {
   padding: 2rem;
@@ -312,7 +317,7 @@ p {
 .passeios-home-lista a {
   display: block;
   margin-top: 1rem;
-  color: var(--blue-1);
+  color: var(--green-1);
   transition: 0.1s ease-out;
 }
 .dados a:hover,
@@ -429,7 +434,7 @@ p {
   justify-content: center;
 }
 .redes-sociais li {
-  background-color: var(--blue-3);
+  background-color: var(--green-3);
   border-radius: 5px;
   transition: 0.2s;
 }
@@ -441,11 +446,11 @@ p {
   height: 2rem;
 }
 .redes-sociais li:hover {
-  background-color: var(--blue-1);
+  background-color: var(--green-1);
 }
 .copyright {
   width: 100%;
-  background: linear-gradient(135deg, var(--blue-1), var(--blue-3));
+  background: linear-gradient(135deg, var(--green-1), var(--green-3));
   padding: 2rem 1rem;
   margin-top: 4rem;
   box-sizing: border-box;
@@ -470,15 +475,16 @@ p {
   color: tomato;
 }
 #form-success {
-  color: var(--green-2);
+  color: var(--orange-2);
 }
 .sobre {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/praia.jpg) center center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/bg-sobre.jpg) center center/cover no-repeat;
   padding: 0;
 }
 .mvv {
   width: 100%;
-  background-color: var(--blue-1);
+  background-color: var(--green-1);
 }
 .mvv-lista {
   display: grid;
@@ -493,7 +499,7 @@ p {
 }
 .mvv-lista h2 {
   font-size: 1.5rem;
-  color: var(--blue-3);
+  color: var(--green-3);
   margin-bottom: 1rem;
 }
 .mvv-lista h2::before {
@@ -541,7 +547,7 @@ p {
 .feature-title {
   font-weight: bold;
   font-size: 18px;
-  color: var(--green-2);
+  color: var(--orange-2);
   margin-bottom: 10px;
 }
 
@@ -561,7 +567,7 @@ details {
 summary {
   cursor: pointer;
   font-size: 16px;
-  color: var(--blue-1);
+  color: var(--green-1);
   outline: none;
 }
 
@@ -575,20 +581,21 @@ summary {
 }
 .agende {
   width: 100%;
-  background: url(../img/bg-agende\ 1.jpg) center center/cover no-repeat;
+  background: url(../img/bg-agendar.jpg) center center/cover no-repeat;
 }
 .agende .titulo,
 .agende p {
   color: #fff;
 }
 .passeios {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/rio2.jpg) center center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/bg-passeios.jpg) center center/cover no-repeat;
   width: 100%;
   padding: 0;
 }
 .info h2 {
   font-size: 1.125rem;
-  color: var(--green-1);
+  color: var(--orange-1);
 }
 .form .curriculo,
 .info p,
@@ -628,7 +635,8 @@ summary {
   background: var(--white-2);
 }
 .contato {
-  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/rio.jpg) center center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/bg-contato.jpg) center center/cover no-repeat;
   padding: 0;
 }
 .form,
@@ -647,7 +655,8 @@ summary {
   border-radius: 5px;
   text-align: left;
 }
-.atendimento,.mapa {
+.atendimento,
+.mapa {
   width: 100%;
   background-color: var(--white-2);
 }
@@ -705,7 +714,7 @@ summary {
   position: absolute;
   width: 1rem;
   height: 0.5rem;
-  background: url(../img/Polygon\ 1.svg) center center no-repeat;
+  background: url(../img/seta.svg) center center no-repeat;
   right: 1rem;
   top: 50%;
   transform: translate3d(0, -50%, 0);
@@ -850,22 +859,24 @@ summary {
   .contato,
   .main,
   .passeios,
-  .sobre{
+  .sobre {
     height: 400px;
   }
   .main {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/bg-home.jpg") center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/bg-home-mobile.jpg") center center/cover no-repeat;
   }
   .sobre {
-    background: url("../img/bg-sobre-mobile.jpg") center center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/bg-sobre-mobile.jpg") center center/cover no-repeat;
   }
   .passeios {
-    background: url("../img/bg-passeios-mobile.jpg") center center/cover
-      no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/bg-passeios-mobile.jpg") center center/cover no-repeat;
   }
   .contato {
-    background: url("../img/bg-contato-mobile.jpg") center center/cover
-      no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../img/bg-contato-mobile.jpg") center center/cover no-repeat;
   }
 
   .passeios-home-lista li {
